@@ -7,8 +7,11 @@ body {
     margin: 20px;
 }
 
+/*-----Header-----*/
+
 nav {
     background-color: #ccc;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     float: left;
     width: 100%;
     padding: 10px, 0;
@@ -17,6 +20,8 @@ nav {
 .clearfix {
     clear: both;
 }
+
+/*-----index-----*/
 
 .main-section {
     margin: 20px;
@@ -29,7 +34,23 @@ nav {
     float: left;
 }
 
+/*------portfolio------*/
+
+.image-holder img {
+    width: 300px;
+    height: 300px;
+    margin:30px;
+}
+
+.crossfade {
+    width: 900px;
+    margin: 10px auto;
+}
+
+/*------footer------*/
+
 footer {
     background-color: #ccc;
     text-align: center;
+    position: sticky;
 }
