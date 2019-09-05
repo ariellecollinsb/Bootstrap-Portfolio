@@ -3,54 +3,96 @@
 }
 
 body {
-    color: #020;
-    margin: 20px;
+    background-image: url("image/papyrus.png");
+    background-repeat: repeat;
+    color: #666;
+    margin: 0;
+
 }
 
 /*-----Header-----*/
 
 nav {
-    background-color: #ccc;
+    background-color: #4aaaa5;
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     float: left;
     width: 100%;
     padding: 10px, 0;
+    border-bottom: 3px solid #ccc;
+    color: #fff;
+}
+
+.nav-link {
+    color: #666;
+}
+
+.header {
+    padding-right: 50px;
+}
+
+
+.nav-item:not(:last-child) {
+    border-right: 1px solid #ccc;
 }
 
 .clearfix {
     clear: both;
 }
 
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+}
+
 /*-----index-----*/
+
+.main-content {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
 
 .main-section {
     margin: 20px;
     font-family: sans-serif;
+
 }
 
 .main-section img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
+    border: 10px solid grey;
+    margin-right: 20px;
+    
+}
+
+#contact-message {
+    height: 600px;
 }
 
 /*------portfolio------*/
 
 .image-holder img {
-    width: 300px;
-    height: 300px;
-    margin:30px;
+    border: 5px solid #ccc;
+    width: 100%;
+
 }
 
 .crossfade {
-    width: 900px;
+    width: 100%;
     margin: 10px auto;
+    border: 5px solid #ccc;
 }
 
 /*------footer------*/
 
 footer {
-    background-color: #ccc;
+    background-color: #666;
+    color: #ccc;
     text-align: center;
+    width: 100%;
+    height: 70px;
     position: sticky;
+    border-top: 10px solid #4aaaa5;
 }

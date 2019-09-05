@@ -23,7 +23,7 @@
 
 <body>
     <div class="header-bar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg  navbar-light">
 
             <div class="header">
                 <h1>
@@ -31,7 +31,7 @@
                 </h1>
             </div>
 
-            <div class="nav-position">
+            <div class="nav-position ml-auto">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -55,35 +55,37 @@
         </nav>
     </div>
     <div class="clearfix"></div>
+<br><br>
 
-    <section>
+    <div class="container">
 
-        <form>
-            <div class="main-section">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">
-                        <h2>Contact</h2>
-                    </label>
-                </div>
+        <div class="row">
 
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Name</label>
-                    <input class="form-control" id="exampleFormControlSelect1">
+            <div class="col-md-10 offset-md-1 main-content">
+                <h2>Contact</h2>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input class="form-control" id="contact-name">
 
-                </div>
+                    </div>
 
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">Email</label>
-                    <input class="form-control" id="exampleFormControlSelect1">
-                </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input class="form-control" id="contact-email">
+                    </div>
 
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-        </form>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
         </div>
-    </section>
+
+        </form>
+    </div>
 
     <footer>
         <div>
